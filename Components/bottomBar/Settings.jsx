@@ -26,17 +26,17 @@ export default function Settings({ navigation, route }) {
         return AsyncStorage.getItem('uid')
           .then((uid) => {
             if (uid !== null) {
-              // We have data!!
+              
               setUSerID(uid)
               console.log(uid);
             } else {
-              // uid not found
+           
               console.log('No UID found');
             }
             return uid;
           })
           .catch((error) => {
-            // Error retrieving data
+         
             console.error('Error fetching the UID:', error);
           });
       };
