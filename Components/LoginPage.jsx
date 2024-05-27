@@ -73,7 +73,7 @@ const LoginPage = ({ navigation }) => {
 
 
                 <View className="flex flex-row justify-center  mt-8">
-                    <StyledText style={{ fontFamily: "Ing" }} className='text-5xl   mt-4'> Let's Party!!! </StyledText>
+                    <StyledText style={{  }} className='text-5xl   mt-4'> Let's Party!!! </StyledText>
                     <View className=' w-9'>
                         <StyledImage style={{ width: 30 }} resizeMode='contain' source={require('../assets/img/Frame 38.png')} />
                     </View>
